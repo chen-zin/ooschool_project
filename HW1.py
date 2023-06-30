@@ -14,4 +14,4 @@ class Student():
         
     def display_student_info(self):
         return "student name: {:s}, student id: {:s}, age: {:d}, gender: {:s}, grade:{:d}"\
-                    .format(str(self.__name), str(self.__id), self.__age, str(self.__gender), self.__grade)
+                .format(str(self.__name), str(self.__id), self.__age, str(self.__gender), self.__grade)
